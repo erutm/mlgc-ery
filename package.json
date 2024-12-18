@@ -1,0 +1,21 @@
+{
+  "name": "my-predict-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^6.8.0",
+    "@hapi/hapi": "^21.0.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
